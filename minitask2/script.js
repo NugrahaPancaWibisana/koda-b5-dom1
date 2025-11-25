@@ -1,23 +1,18 @@
-function changeToYellow() {
-  const red = document.querySelector("span:nth-child(1)");
-  const yellow = document.querySelector("span:nth-child(2)");
+const red = document.querySelector("span:nth-child(1)");
+const yellow = document.querySelector("span:nth-child(2)");
+const green = document.querySelector("span:nth-child(3)");
 
+function changeToYellow() {
   red.style.backgroundColor = "black";
   yellow.style.backgroundColor = "yellow";
 }
 
 function changeToGreen() {
-  const yellow = document.querySelector("span:nth-child(2)");
-  const green = document.querySelector("span:nth-child(3)");
-
   yellow.style.backgroundColor = "black";
   green.style.backgroundColor = "green";
 }
 
 function changeToRed() {
-  const green = document.querySelector("span:nth-child(3)");
-  const red = document.querySelector("span:nth-child(1)");
-
   green.style.backgroundColor = "black";
   red.style.backgroundColor = "red";
 }
