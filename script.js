@@ -26,9 +26,9 @@ form.addEventListener("submit", (e) => {
 
   document.querySelector(
     "div p:nth-child(3)"
-  ).textContent = `Fahrenheit: ${celciusToKelvin(e.target.celcius.value)}`;
+  ).textContent = `Kelvin: ${celciusToKelvin(e.target.celcius.value)}`;
 
   document.querySelector(
     "div p:nth-child(4)"
-  ).textContent = `Fahrenheit: ${celciusToReamur(e.target.celcius.value)}`;
+  ).textContent = `Reamur: ${celciusToReamur(e.target.celcius.value)}`;
 });
